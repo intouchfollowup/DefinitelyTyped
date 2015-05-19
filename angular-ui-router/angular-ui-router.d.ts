@@ -5,6 +5,10 @@
 
 /// <reference path="../angularjs/angular.d.ts" />
 
+declare module 'angular-ui-router' {
+
+}
+
 declare module angular.ui {
 
     interface IState {
